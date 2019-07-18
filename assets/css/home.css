@@ -22,9 +22,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .navbar{
-    width: 100%;
     background-color: transparent !important;
+    width: 100%;
     position: absolute;
     transition: 0.8s;
     padding: 0;
@@ -53,7 +54,7 @@ body {
 }
 
 .dropdown-menu {
-    background-color: darkorange;    
+    background-color: transparent;    
     border: none;
 }
 
@@ -267,6 +268,7 @@ button {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
  }
+
 
 /* défilement du test deal */
 
