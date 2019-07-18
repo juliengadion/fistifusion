@@ -1,6 +1,6 @@
 @font-face {
     font-family: SnackerComic;
-    src: url("/assets/fonts/snacker_comic/SnackerComic.ttf");
+    src: url("../fonts/snacker_comic/SnackerComic.ttf");
 }
 
 body {
