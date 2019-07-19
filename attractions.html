@@ -28,56 +28,57 @@
             </div>
 
 
-<!-- Navbar -->
-<section class="navi">
-    <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+            <!-- Navbar -->
+            <section class="navi">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Parc
-                        </a>
-                        <div class="dropdown-menu" id="dropdownMenu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="parc.html">Plan</a>
-                            <a class="dropdown-item" href="attractions.html">Attractions</a>
-                            <a class="dropdown-item" href="restaurants.html">Restaurants</a>
-                            <a class="dropdown-item" href="hotels.html">Hôtels</a>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Parc
+                                    </a>
+                                    <div class="dropdown-menu" id="dropdownMenu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="parc.html">Plan</a>
+                                        <a class="dropdown-item" href="attractions.html">Attractions</a>
+                                        <a class="dropdown-item" href="restaurants.html">Restaurants</a>
+                                        <a class="dropdown-item" href="hotels.html">Hôtels</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="billeterie.html">Billeterie</a>
+                                </li class="nav-item">
+                                <a class="nav-link" href="transports.html">Se rendre à Fistiland</a>
+                                <li>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item d-lg-none">
+                                    <a class="nav-link btnOpen" id="openMob" href="#">Mon compte</a>
+                                </li>
+                            </ul>
                         </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="billeterie.html">Billeterie</a>
-                    </li class="nav-item">
-                    <a class="nav-link" href="transports.html">Se rendre à Fistiland</a>
-                    <li>
-
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item d-lg-none">
-                        <a class="nav-link btnOpen" id="openMob" href="#">Mon compte</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-</section>
+                    </nav>
+                </div>
+            </section>
         </header>
 
         <main>
             <div class="container">
+
                 <!-- attraction 1 -->
                 <div class="row mb-5">
                     <!-- Card -->
@@ -94,17 +95,49 @@
                                     <!-- cardblock -->
                                     <div class="card-block">
                                         <h4 class="card-header text-center mb-3 cardtitle">La Gorge Profonde</h4>
-                                        <!-- <p class="card-text">Accompagnez Fisty au fin fond des gorges du péril gardées
-                                            par le terrifiant Gagreflex. Ne vous faites pas recracher avant d'avoir
-                                            touché le fond. -->
-                                        </p>
-                                        <button class="btnCards">En savoir plus <a href=""></a></button>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModal1">
+                                            En savoir plus
+                                        </button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Modal -->
+
+                <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel1">La Gorge Profonde</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <!-- modal attractions -->
+                            <div class="modal-body">
+                                <img src="assets/img/attractions/gorge.jpg" style="width: 100%" srcset="">
+                                <p>
+                                    Vous aimez les endroits sombres et profonds ? L’humidité ne vous fait pas peur ?
+                                    Prenez place dans une des 6 voitures du Gorge Profonde pour une expérience qui vous
+                                    marquera à tout jamais : muqueuses, cyprine et autres substances douteuses vous
+                                    attendent dans la gueule du gros méchant loup Crocfist.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
                 <!-- attraction 2 -->
                 <div class="row mt-5 mb-5">
                     <div class="container">
@@ -120,17 +153,52 @@
                                     <!-- cardblock -->
                                     <div class="card-block">
                                         <h4 class="card-header text-center mb-3 cardtitle">La Rondelle Démoniaque</h4>
-                                        <!-- <p class="card-text">Elle tourne elle tourne la rondelle. 135km/h, un cercle
-                                            parfait de 1 200m de circonférence. Oubliez tout ce que vous savez des
-                                            Chenilles. -->
-                                        </p>
-                                        <button class="btnCards">En savoir plus <a href=""></a></button>
+
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModal2">
+                                            En savoir plus
+                                        </button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+                <!-- Modal -->
+
+                <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel2">La Rondelle Démoniaque</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <!-- modal attractions -->
+                            <div class="modal-body">
+                                <img src="assets/img/attractions/rondelle.jpg" style="width: 100%" srcset="">
+                                <p>
+                                    "Il tourne, il tourne le cisson…" Première attraction au monde non cachère, la
+                                    Rondelle Démoniaque 100 % pur porc vous propulse à des vitesses inavouables.
+                                    Glissez-vous à l’intérieur de nos saucissons (pas l’inverse) et découvrez l’ivresse
+                                    de la graisse à plus de 135 km/h. Comme dirait un célèbre philosophe : "le gras
+                                    c’est la vie".</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
                 <!-- attraction 3 -->
                 <div class="row mt-5 mb-5">
                     <div class="container">
@@ -146,18 +214,48 @@
                                     <!-- cardblock -->
                                     <div class="card-block">
                                         <h4 class="card-header text-center mb-3 cardtitle">La Tour Infernale</h4>
-                                        <!-- <p class="card-text">Etape 1 : s'installer sur les tabourets Poing. <br> Etape 2
-                                            : gare à l'atterrissage. -->
-                                        </p>
-                                        <!-- <p class="card-text small">Des déambulateurs vous seront foàurnis à l'arrivée -->
-                                        </p>
-                                        <button class="btnCards">En savoir plus <a href=""></a></button>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModal3">
+                                            En savoir plus
+                                        </button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Modal -->
+
+                <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel3">La Rondelle Démoniaque</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <!-- modal attractions -->
+                            <div class="modal-body">
+                                <img src="assets/img/attractions/tout.jpg" style="width: 100%" srcset="">
+                                <p>
+                                    Elle s’érige phalliquement et fièrement au centre de notre parc telle une verge
+                                    dirigée vers les cieux… Elle vous fera atteindre le 7ème ciel en moins de temps
+                                    qu’il faut pour le dire. Accrochez vous a ce que vous pouvez car ça va vous
+                                    émoustiller pour le reste de votre vie.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
                 <!-- attraction 4 -->
                 <div class="row mt-5 mb-5">
                     <div class="container">
@@ -177,14 +275,50 @@
                                             quelques pas
                                             du restaurant Le Bateau Beurré. -->
                                         </p>
-                                        <button class="btnCards">En savoir plus <a href=""></a></button>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModal4">
+                                            En savoir plus
+                                        </button>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Modal -->
+
+                <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel4">La Rondelle Démoniaque</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <!-- modal attractions -->
+                            <div class="modal-body">
+                                <img src="assets/img/attractions/tunnelamour.jpg" style="width: 100%" srcset="">
+                                <p>
+                                    Qui peut dire combien d’enfants ont été conçus dans ces petites barques ? A part
+                                    Cyril Hanouna… Personne !! En effet, cette mini croisière sur les eaux usées de la
+                                    communauté de commune vous enchantera au plus haut point. Cerise sur le gâteau : les
+                                    émanations toxiques réveillerons en vous votre instinct de prédateur sexuel …
+                                    GRRRR !!!</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
                 <!-- attraction5 -->
                 <div class="row mt-5 mb-5">
                     <div class="container">
@@ -204,14 +338,49 @@
                                             nos auto-fisteuses sur le circuit
                                             sécurisé Fist and Furious où tous les têtes-à-queue se terminent bien. -->
                                         </p>
-                                        <button class="btnCards">En savoir plus <a href=""></a></button>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModal5">
+                                            En savoir plus
+                                        </button>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Modal -->
+
+                <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel5">La Rondelle Démoniaque</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <!-- modal attractions -->
+                            <div class="modal-body">
+                                <img src="assets/img/attractions/fist_furious.jpg" style="width: 100%" srcset="">
+                                <p>
+                                    Vous pensez être la réincarnation de Brian ? Mesurez-vous à d’autres pilotes
+                                    chevronnés sur le "FistySpeedway" sur des quads surpuissants ; monocylindre en V,
+                                    78cc, 1,9 chevaux… Profitez d’accessoires fournis au troisième tour : objets
+                                    contondants, vaseline, fruits ou brochettes de Kebabs.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
                 <!-- attraction6 -->
                 <div class="row mt-5 mb-5">
                     <div class="container">
@@ -233,14 +402,49 @@
                                                 Uranus</strong> et envolez-vous direction l'infini. Sensations fortes
                                             garanties ! -->
                                         </p>
-                                        <button class="btnCards">En savoir plus <a href=""></a></button>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModal6">
+                                            En savoir plus
+                                        </button>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Modal -->
+
+                <div class="modal fade" id="exampleModal6" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel6">La Rondelle Démoniaque</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <!-- modal attractions -->
+                            <div class="modal-body">
+                                <img src="assets/img/attractions/retour_vers_uranus.jpg" style="width: 100%" srcset="">
+                                <p>
+                                    La vue d’un gros calibre vous donne des bouffées de chaleur ? La réplique exacte du
+                                    Gustav de 1942 va vous donner des frissons : canon de 1300 tonnes, calibre de 80cm
+                                    et le 0 à Mach 3 en moins d’une seconde… Une petite envie de vaporiser votre Belle
+                                    Mère ? N’oubliez pas de partager cette attraction vraiment canon avec elle…
+                                    (probabilité de perdre un proche de l’ordre de 99,99%).</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
                 <!-- attraction 7 -->
                 <div class="row mb-5">
                     <!-- Card -->
@@ -263,13 +467,48 @@
                                             224,4 hm/h et le tout sans harnais de sécurité !!! (taux de mortalité de
                                             65 % mais chut!!!). -->
                                         </p>
-                                        <button class="btnCards">En savoir plus <a href=""></a></button>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModal7">
+                                            En savoir plus
+                                        </button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Modal -->
+
+                <div class="modal fade" id="exampleModal7" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel7">La Rondelle Démoniaque</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <!-- modal attractions -->
+                            <div class="modal-body">
+                                <img src="assets/img/attractions/etron_de _la_mine.jpg" style="width: 100%" srcset="">
+                                <p>
+                                    Laissez vous emener au-delà de vos rêves les plus malsains avec ce train hors du
+                                    commun. En effet, vous ne serez jamais à bout de souffle a bord de l’étron qui pète
+                                    le feu. A plus de 224 km/h, alimenté au butane pur non raffiné. N’ayez pas peur du
+                                    risque d’explosion 2/3 fois et tentez l’aventure sans garde fou !!!</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
                 <!-- attraction 8 -->
                 <div class="row mb-5">
                     <!-- Card -->
@@ -290,7 +529,11 @@
                                             Martinet, fouet et autres sevices vous feront frissonner de plaisir. Dwayne
                                             Jhonson approuve !!! -->
                                         </p>
-                                        <button class="btnCards">En savoir plus <a href=""></a></button>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModal8">
+                                            En savoir plus
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -298,6 +541,38 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Modal -->
+
+            <div class="modal fade" id="exampleModal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel8">La Rondelle Démoniaque</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <!-- modal attractions -->
+                        <div class="modal-body">
+                            <img src="assets/img/attractions/fesse_mountain.jpg" style="width: 100%" srcset="">
+                            <p>
+                                Attraction phare de notre parc, le fesse Mountain est destiné aux fans de jeux d’eau.
+                                Cette eau trouble, pompée de l’attraction voisine le tunnel de l’amour vous provoquera
+                                toutes sortes d’allergie dont vous rêvez. La "Crampe" vous fouettera à sa guise et le
+                                grand Dwayne The Rock Jhonson vous en collera une à chaque passage. Mycoses
+                                garanties !!!!!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
         </main>
 
         <footer>

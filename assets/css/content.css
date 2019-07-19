@@ -141,6 +141,13 @@ button {
     font-size: 15px;
 }
 
+
+/* modal */
+
+.modal {
+    width: 100% !important;
+}
+
 /* FOOTER */
 
 /* skew */
