@@ -144,8 +144,10 @@ button {
 
 /* modal */
 
-.modal {
-    width: 100% !important;
+ .modal-content {
+    width: 1000px;
+    height: 900px;
+    overflow: hidden;
 }
 
 /* FOOTER */
