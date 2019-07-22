@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+
 @font-face {
     font-family: SnackerComic;
     src: url("../fonts/snacker_comic/SnackerComic.ttf");
@@ -146,8 +148,20 @@ button {
 
  .modal-content {
     width: 1000px;
-    height: 900px;
+    height: auto;
     overflow: hidden;
+}
+
+.modal-dialog {
+    width: 1000px;
+    height: auto;
+    max-width: none;
+}
+
+.p-attarc {
+    font-size: 23px;
+    font-family: 'Satisfy', cursive;
+    margin-top: 60px;
 }
 
 /* FOOTER */
