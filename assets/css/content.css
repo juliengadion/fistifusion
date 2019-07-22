@@ -147,9 +147,10 @@ button {
 /* modal */
 
  .modal-content {
-    width: 1000px;
+    width: auto;
     height: auto;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .modal-dialog {
@@ -157,9 +158,44 @@ button {
     height: auto;
     max-width: none;
 }
+.modal h5{
+    font-family: SnackerComic;
+    font-size: 3em;
+    color: whitesmoke;
+    text-shadow: 4px 5px 6px rgb(0, 0, 0);
+    border-bottom: solid 3px transparent;
+}
+.modal-header, .modal-footer{
+    background-color: darkorange;
+}
+.btn-secondary{
+    color: rgb(255, 255, 255);
+    border: solid 2px white;
+    border-radius: 23.6px;
+    width:auto;
+    height: auto;
+    font-size: 15px;
+    background-color: rgb(0, 123, 255);
+    margin: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    border: solid 1px rgb(0, 123, 255);
+    border-radius: 23.6px;
+    color: rgb(0, 123, 255);
+    background-color: white;
+}
+
+    .btn-primary{
+        margin-left: 280px;
+        margin-top: 50px;
+    }
+
 
 .p-attarc {
-    font-size: 23px;
+    font-size: 1.7em;
     font-family: 'Satisfy', cursive;
     margin-top: 60px;
 }
@@ -268,6 +304,7 @@ h5{
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     bottom: 30px;
+    
  }
 
  @keyframes defil {
@@ -279,6 +316,9 @@ h5{
 .card-header{
     width: 31%;
     padding: 0 !important;
+    background-color:rgba(209, 212, 210, 0.363);
+    font-weight: bold;
+
 }
 .card-block{
     width: 69%;
@@ -408,6 +448,12 @@ form, #pform{
         background-color: transparent;
         padding: 0;
     }
+
+    .btn-primary{
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+
     .FormSkew {
         height: 900px;
         width: 100%;
@@ -436,6 +482,15 @@ form, #pform{
         padding-right: 20px;
         padding-left: 20px; 
     }
+    /* modal */
+
+ 
+.modal-dialog {
+    width: auto;
+    height: auto;
+    max-width: none;
+}
+
 }
 /*small*/
 @media screen and (max-width: 767px) {
@@ -453,8 +508,14 @@ form, #pform{
     #navbarSupportedContent {
         z-index: 1000;
     }
+    
     .navbar-nav {
     background-color: darkorange !important;
+    }
+
+    .btn-primary{
+        margin-left: 65px;
+        margin-top: 50px;
     }
 
     .hotelSkew {
@@ -515,4 +576,9 @@ form, #pform{
         height: 750px;
         padding-top: 50px; 
     }
+    
+.modal-dialog {
+    width: auto;
+    height: auto;
+}
 }
