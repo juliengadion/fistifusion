@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Fistiland au fond du fun">
+    <meta name="keywords"
+        content="fistiland, fist, promo, theme park, jdg, beurette, fisty, hotels, vandersex, restaurants, fast-food, gilet-jaune, nature, bateau, exclamation, fuck, burger, confiserie, kebab, luxe, gaming, roller-coaster, planet-coaster">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/content.css">
+    <title>Fistiland, au fond du fun !</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <header id="top">
+
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <h1 class="breath">Fistiland</h1>
+
+                    <!-- partenaires -->
+
+            <div class="partenaires">
+                   <a href="https://www.facebook.com/Joueur-du-Grenier-133349966719915/" ><i class="fab fa-facebook-square" id="face"></i></a>
+                   <a href="https://www.youtube.com/channel/UC_yP2DpIgs5Y1uWC0T03Chw" ><i class="fab fa-youtube" id="you"></i></a>
+                    <a href="https://twitter.com/Frederic_Molas?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" ><i class="fab fa-twitter"id="twit"></i></a>
+                    <a href="https://www.instagram.com/molas.frederic/?hl=fr" ><i class="fab fa-instagram" id="insta"></i></a>
+                </div>
+
+
+
+                </div>
+                <div class="col-sm-4 d-none d-lg-block">
+                    <button type="button" class="btn btnOpen" id="btnLogin">Mon compte <a href="#"></a></button>
+                </div>
+            </div>
+
+            
+
+
+
+            <!-- modal Login-->
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Mon Compte</h4>
+                        <button class="closeBtn" id="closeBtn">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form" action="index.php" method="POST">
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="email" class="form-control" placeholder="e-mail">
+                            </div>
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                </div>
+                                <input type="password" class="form-control" placeholder="mot de passe">
+                            </div>
+                            <div class="row align-items-center remember">
+                                <input type="checkbox">Se souvenir de moi
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Se connecter" class="btn float-right login_btn">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal fin -->
+
+            
+
+            <!-- Navbar -->
+
+            <section class="navi">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="home.html">Accueil<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Parc
+                                    </a>
+                                    <div class="dropdown-menu" id="dropdownMenu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="parc.html">Plan</a>
+                                        <a class="dropdown-item" href="attractions.html">Attractions</a>
+                                        <a class="dropdown-item" href="restaurants.html">Restaurants</a>
+                                        <a class="dropdown-item" href="hotels.html">Hôtels</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="billeterie.html">Billeterie</a>
+                                </li class="nav-item">
+                                <a class="nav-link" href="transports.html">Se rendre à Fistiland</a>
+                                <li>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item d-lg-none">
+                                    <a class="nav-link btnOpen" id="openMob" href="#">Mon compte</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+        </header>
+
+        <main>
+
+            <div class="row">
+                <div class="col-lg-2"></div>
+
+                <div class="col-lg-8">
+                    <div class="Reglement">
+                        <h2 class="regleTitre"><strong>Réglement Interieur Du Parc</strong></h2>
+
+                        <div class="paragraph">
+                        <p><strong>1- horaires d’ouverture</strong></p>
+
+                            <p><strong>Le parc est ouvert 7/7 jours de 11h05 à 00h00.</strong>
+                                <strong>Les restaurants du parc</strong> sont ouverts de 11h05 à 23h55.
+                            L’accès à la <strong>billetterie</strong> se fait à partir de 4h25 jusqu’à 8h00.
+                            <strong> Le food truck </strong>entre la <strong>billetterie</strong> et le parc est ouvert de 8h00 à 9h45.</p>
+
+
+                            <p><strong>2- Les conditions d’accès au parc :</strong></p>
+
+                            <p><strong>a. L’age minimum requis :</strong></p>
+
+                            <p>L’age minimum requis afin de pénétrer à <strong>Fistiland</strong> est de 3mois. En revanche, aucune
+                            attraction n’étant prévue à leur jeune age, nous mettons à votre disposition des casiers à
+                            consigne dès l’entrée du parc afin d’y déposer vos jeunes enfants. (1 finger/heure).
+                            Néanmoins, <strong>Fistiland</strong> dépendant du <strong>Panama</strong>, la majorité (sexuelle) est fixée à 40 kilogrammes
+                            pour les filles et 16 ans pour les hommes. En connaissance de cause, <strong>leur responsabilité
+                            respective ne pourra être mise en cause en deçà des conditions de majorité.</strong>
+                            Les enfants de moins de 6 ans devrons impérativement être tenus en laisse sous peine de
+                            confiscation de ce dernier pour une durée indéterminée. La récupération de l’enfant se fera
+                            à la <strong>Kommandantur</strong> entre 22h00 et 22h10. Vous devrez vous acquittez d’une <strong>amende de
+                            3fisticoins.</strong>
+                            <strong>Aucun dispositif n’est prévu pour les personnes âgées (+ de 70ans).</strong> <strong>Un service d’euthanasie</strong>
+                            reste à votre entière disposition au <strong>poste de secours</strong> tous les jours avant <strong>"Questions pour
+                            un Champion"</strong> soit 17h50.</p>
+
+                            <p><strong>b. Les tarifs et journées spéciales.</strong></p>
+
+                            <p><strong>Les tarifs sont développés sur la page tarif.</strong>
+                            Les enfants de moins de 6 ans tenus en laisse bénéficient de -10 %,
+                            <strong>Les cousines</strong> accompagnées bénéficient de -2,5 %,
+                            Les personnes agées entrent gratuitement les jours de canicule ainsi que les nouveaux nés,
+                            <strong>Les groupes</strong> (+de 84 personnes) bénéficient de -1 % par membre.
+                            Les tarifs des périodes de vacances de <strong>Noël</strong> augmentent de 24 % les années bissextiles.
+                            Les extras (restaurations, souvenirs…) ne sont pas compris dans le tarif d’entrée.
+                            Les parkings du parcs sont accessible de 5h00 à 23h00 au tarif de 2fingers de l’heure
+                            plafonnés à 10fisticoins.
+                            Les juifs paieront 20 % de plus à l’entrée, et la gratuité les jours de shabat,
+                            Les musulmans paieront 5 % de plus à l’entrée et la gratuité de 11h05 à 19h30 durant le
+                            ramadan,
+                            Les chrétiens de tous bords devrons consommer du <strong>poisson</strong> tous les vendredis et verrons leur
+                            accès au parc refusé tous les <strong>dimanches sauf Pâques.</strong>
+                            Les témoins de Jéhovah seront obligés de verser une pénalité de 3fisticoins à l’entrée et
+                            seront interdits d’attractions. Le seul fait de déambuler dans le parc leur est autorisé.
+                            <strong>Les Davidologues</strong> sont interdits d’accès au parc pour des raisons sanitaires.
+                            <strong>Les Scientologues</strong> seront systématiquement fouillé au corps avant l’entrée (comme des
+                            ressortissants Syriens et Libyens).
+                            Les bouddhistes sont interdits de parc de 11h05 à 15h42 (accès réservé à nos amis <strong>Shinwa</strong>).</p>
+
+
+
+                            <p><strong>c. Les restrictions</strong></p>
+
+                            <p>Les armes à feu sont interdites dans <strong>le parc</strong>,
+                            Les armes contondantes sont autorisées si elles excèdent 20cm,
+                            Les explosifs sont tolérés entre 20h30 et 20h41 le deuxième samedi du mois de juillet,
+                            Les ceintures d’explosifs ne sont en revanche tolérées que le lundi de 11h05 à 11h07,
+                            Aucune tenue vestimentaire n’est imposée et obligatoire pour les femmes contrairement aux
+                            homme qui doivent <strong>OBLIGATOIREMENT</strong> porter un slip,
+                            Apporter de la nourriture est <strong>formellement prohibé sous peine d’amende</strong>,
+                            Les objets à caractère sadomasochiste vous donne accès aux back-stages…
+                            Il est formellement interdit de dissimuler quoique ce soit dans sont anus, touchers rectal
+                            aléatoire à l’entrée,
+                            En raison de la <strong>non-conformité</strong> aux règles d’accessibilités, <strong>le parc</strong> est interdit d’accès aux
+                            personnes à mobilité réduite. En revanche <strong>l’intégralité des boutiques du parc</strong> pourront les
+                            accueillir.</p>
+
+
+                            <p><strong>3- Règles sanitaires</strong></p>
+
+                            <p><strong>Les visiteurs</strong> atteins de Gastro-entérite se verront leur <strong>billet offert</strong>,
+                                <strong>Les visiteurs</strong> atteins de toutes autres maladies se verront <strong>isolés dans des containers</strong> le
+                            temps d’un toucher rectal,
+                            <strong>Des miasmes</strong> seront disponible dans tous les points d’eau,
+                            Deux cabines de WC sont disponibles dans <strong>le parc.</strong> Papier non-fourni, à l’achat dans <strong>les
+                            boutiques.</strong>
+                            <strong>Le parc décline toute responsabilité en cas de contamination</strong> par MST d’un ou plusieurs de
+                            ses <strong>visiteurs.</strong>
+                            Pour des raisons évidentes de sécurité, <strong>le salami est formellement interdit</strong> dans <strong>le parc</strong>,
+                            les animaux sont interdit dans le parc à l’exception des <strong>hyènes et des fouines.</strong>
+                            Il est formellement interdit de déféquer sur les pelouses du parc. <strong>Pensez au salades des
+                            restaurants...</strong></p>
+
+
+                            <p><strong>4- Les restaurants et hôtels du parc</strong></p>
+
+                            <p><strong>La direction</strong> ne peut être tenue responsable de la qualité de <strong>"la nourriture"</strong> servie dans les
+                            points de <strong>restauration du parc.</strong> Par conséquent, toute intoxication ne peut faire l’objet de
+                            poursuites. <strong>Fiez-vous à votre odorat !!</strong>
+                            <strong>Les hôtels du parc</strong> ne peuvent être poursuivis pour travail dissimulé,
+                            <strong>Tout animal, insecte, acarien ou bactérie trouvé dans les hôtels du parc restent propriété
+                            du parc.</strong>
+                            <strong>Fistiland étant de Panama</strong>, <strong>les teneurs en sucre, sel, sulfate ou chaux des aliments peuvent
+                            "éventuellement" dépasser les préconisations de l’UE.</strong>
+                            <strong>Fistiland</strong> n’est pas responsable du taux de radiation des aliments et des liquides vendus sur
+                            le parc. <strong>Un compteur Geiger</strong> est à votre disposition au <strong>poste de secours</strong> en cas de doute.</p>
+
+
+                            <p><strong>5- Les pleins pouvoirs.</strong></p>
+
+                            <p><strong>LA DIRECTION A POUVOIR DE VIE OU DE MORT SUR CHAQUE VISITEUR DU PARC. PAR CONSÉQUENT, AUCUNE
+                            QUESTION SERA TOLÉRÉE EN CAS DE MUTILATION OU DISPARITION DE VISITEURS.</strong></p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2"></div>
+
+
+            </div>
+        
+            <div class="row">
+                <div class="col-12">
+                    <div class="retour">
+                        <a href="#top"><i class="fas fa-chevron-circle-up"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <section class="navfooter">
+                <div class="row justify-content-center">
+                    <div class="col-sm-3">
+                        <h5>Information légales</h5>
+                        <ul>
+                            <li><a href="cgu.html">CGU</a></li>
+                            <li><a href="https://www.cnil.fr/fr/rgpd-par-ou-commencer">RGPD</a></li>
+                            <li><a href="reglementInterieur.html">Réglement interieur du Parc</a></li>
+                            <li><a href="reglementInterieur.html">Réglement interieur des hôtels</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <div id="footermid">
+                            <h5>Services</h5>
+                            <ul>
+                                <li><a href="centreDeSecours.html">Centre de secours</a></li>
+                                <li><a href="tarifs.html">Tarifs</a></li>
+                                <li><a href="https://www.youtube.com/channel/UC_yP2DpIgs5Y1uWC0T03Chw">Contacts</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>A propos</h5>
+                        <ul>
+                            <li><a href="https://www.facebook.com/Joueur-du-Grenier-133349966719915/">News letter</a></li>
+                            <li><a href="">Travailler à Fistiland</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=wtB6ZLAArV8">Information sur l'entreprise</a></li>
+                            <li><a href="partenaires.html">Nos partenaires</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <p class="text-center">&#9400; Copyrights Web15Academy All rights reserved 2019</p>
+        </footer>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- <script src="assets/js/home.js"></script> -->
+    <script src="assets/js/header.js"></script>
+</body>
+
+</html>

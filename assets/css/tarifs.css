@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+
+@font-face {
+    font-family: SnackerComic;
+    src: url("../fonts/snacker_comic/SnackerComic.ttf");
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+
+#pageTarifs{
+    background-image: url(../img/hotel/bg_room.jpg), linear-gradient(to bottom, rgba(255, 255, 255, 0.300), rgba(255,255,255,1));
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header{
+    text-align: center;
+    margin-bottom: 200px;
+    height: 500px;
+    background-image: url("../img/planet-coaster3.jpg");
+    border-bottom-left-radius: 100% 35%;
+    border-bottom-right-radius: 100% 35%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.356);
+    background-blend-mode: overlay;
+}
+
+.navbar{
+    width: 100%;
+    background-color: transparent !important;
+    position: absolute;
+    transition: 0.8s;
+    padding: 0;
+}
+
+.navbar-fixed {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    background-color: darkorange !important; 
+    height: 3.5em;
+}
+
+.navbar a {
+    color: white !important;
+    font-size: 25px;
+    padding: 8px 30px !important;
+    font-weight: 500;
+    text-shadow: 4px 5px 6px black;
+    border-bottom: solid 3px transparent;
+    transition: 0.8s;
+}
+
+.navbar a:hover {
+    border-bottom: solid 3px rgb(220, 220, 220);
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    border: none;
+}
+
+.dropdown-fixed {
+    background-color: darkorange;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image : url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: SnackerComic;
+    font-size: 90px;
+    text-shadow: -2px 2px 15px rgb(87, 119, 134);
+    padding-top: 50px;
+}
+
+.tableaux{
+    display: flex;
+    margin: 5% auto;
+    justify-content: center;
+}
+
+.Colonnes{
+    font-weight: bold;
+    background-color: darkorange;
+}
+
+.Lignes{
+    background-color: rgb(221, 219, 219);
+}
+
+.Prix{
+    background-color: rgba(245, 245, 245, 0.700);
+}
+
+table{
+    width: 50%;
+    border: 3px solid black; 
+}
+
+td{ 
+    border: 2px solid black;
+    vertical-align: center;
+    text-align: center;
+    height: 50px;
+    width: 25%;
+}
+
+/* FOOTER */
+
+/* skew */
+
+
+
+.navfooter{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.navfooter ul{
+    list-style-type: none;
+}
+
+h5{
+    font-size: 18px;
+    text-align: center;
+}
+
+#footermid{
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    padding: 0%;
+    margin: 0;
+}
+
+.navfooter a{
+    color: black !important;
+    font-size: 15px;
+    padding: 8px 30px !important;
+    font-weight: 500;
+    border-bottom: solid 3px transparent;
+}
+
+/*MAIN*/
+
+.hotelSkew {
+    height: 500px;
+    width: 100%;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-left: 20px; 
+    background-color: white;
+    transform: skewY(-6deg);
+    border: rgba(255, 140, 0, 0.8) solid 15px;
+}
+
+.attractionSkew {
+    height: 400px;
+    width: 100%;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-left: 20px; 
+    background-color: white;
+    transform: skewY(-6deg);
+    border: rgba(255, 140, 0, 0.8) solid 15px;
+}
+
+
+.card {
+    transform: skewY(6deg);
+    border: none;
+}
+
+/* //////////////// */
+
+ .carousel-item{
+    /* max-height: 400px;
+    max-width: 350px;
+    min-width: 350px; */
+    height: 230px;
+}
+
+div.mb-5:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > p:nth-child(2){
+    padding-top: 30px;
+}
+div.row:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > p:nth-child(2){
+    padding-top: 30px; 
+}
+div.row:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > p:nth-child(2){
+    padding-top: 30px; 
+}
+div.row:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > p:nth-child(2){
+    padding-top: 30px;  
+}
+
+
+.btnCards {
+    padding: 7px;
+    color: rgb(255, 255, 255);
+    border: solid 1px white;
+    border-radius: 23.6px;
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(0, 123, 255);
+    margin: 0 32%;
+}
+
+.btnCards:hover {
+    border: solid 1px rgb(0, 123, 255);
+    border-radius: 23.6px;
+    color: rgb(0, 123, 255);
+    background-color: white;
+}
+
+.dealtext {
+    position: absolute;
+    display: block;
+    width: 50%;
+    font-size: 2em;
+    animation-name: defil;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    bottom: 30px;
+    
+ }
+
+ @keyframes defil {
+    0%, 25% { left: -100%; opacity: 0; }
+    25%,50% { left: 25%; opacity: 1; }
+    60%, 100% { left: 50%; opacity: 0; }
+}
+
+.card-header{
+    width: 31%;
+    padding: 0 !important;
+    background-color:rgba(209, 212, 210, 0.363);
+    font-weight: bold;
+
+}
+.card-block{
+    width: 69%;
+}
+.cardtitle{
+    width: 100%;
+    padding: 15px !important;
+}
+
+.card-text{
+    margin-left: 20px;
+}
+
+.small {
+    font-size: 0.75em;
+}
+
+.card-footer{
+    background-color: transparent;
+}
+
+.card-footer .btnCards{
+    margin: 8px 20px;
+    display: inline-block;
+}
+
+/* Page Form */
+.spanmention{
+    color: red;
+}
+
+.FormSkew {
+    height: 900px;
+    width: 100%;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-left: 20px; 
+    margin-top: 115px;
+    background-color: white;
+    transform: skewY(-6deg);
+    border: rgba(255, 140, 0, 0.7) solid 15px;
+}
+
+form, #pform{
+    margin-left: 20%;
+    transform: skewY(6deg);
+}
+
+.interContainerForm {
+    background-color: rgba(255, 140, 0, 0.7);
+    transform: skewY(6deg);
+    transform-origin: top;
+    width: 100%;
+    height: 200px;
+}
+
+.interForm {
+    transform: skewY(-6deg);
+    transform-origin: top right;
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    font-family: SnackerComic;
+    text-shadow: 4px 5px 6px black;
+    letter-spacing: 5px;
+}
+
+
+.accountSkew {
+    height: 600px;
+    width: 100%;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-left: 20px; 
+    margin-top: 115px;
+    background-color: white;
+    transform: skewY(-6deg);
+    border: rgba(255, 140, 0, 0.7) solid 15px;
+}
+.retour {
+    height: 100px;
+    margin-top: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.retour i {
+    color: rgb(0, 123, 255);
+}
+
+
+

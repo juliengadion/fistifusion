@@ -382,6 +382,17 @@ h5{
   .login_btn:hover {
       color: rgb(212, 205, 205);
   }
+  .retour {
+    height: 100px;
+    margin-top: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.retour i {
+    color: rgb(0, 123, 255);
+}
 
 @media only screen and (max-width: 740px){    
     #top{

@@ -253,10 +253,6 @@ span {
     font-size: 20px;
 }
 
-
-
-/* FOOTER */
-
 .navfooter{
     margin-top: 100px;
     margin-bottom: 20px;
@@ -269,6 +265,7 @@ span {
 h5{
     font-size: 18px;
     text-align: center;
+    font-weight: bold;
 }
 
 #footermid{
@@ -285,8 +282,22 @@ h5{
     font-weight: 500;
     border-bottom: solid 3px transparent;
 }
+.retour {
+    height: 100px;
+    margin-top: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 3.5em;
+}
 
-     
+.retour i {
+    color: rgb(0, 123, 255);
+}
+
+.text-center   {
+    font-size: 1em;
+    text-align: center;
+}
 /* media queries */
      
 @media screen and (max-width: 767px){

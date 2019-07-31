@@ -291,6 +291,17 @@ h5{
     padding: 8px !important;
     border-bottom: solid 3px transparent;
 }
+.retour {
+    height: 100px;
+    margin-top: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.retour i {
+    color: rgb(0, 123, 255);
+}
 
 
 .modal {

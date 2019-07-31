@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Fistiland au fond du fun">
+    <meta name="keywords"
+        content="fistiland, fist, promo, theme park, jdg, beurette, fisty, hotels, vandersex, restaurants, fast-food, gilet-jaune, nature, bateau, exclamation, fuck, burger, confiserie, kebab, luxe, gaming, roller-coaster, planet-coaster">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/content.css">
+    <title>Fistiland, au fond du fun !</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <header id="top">
+
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <h1 class="breath">Fistiland</h1>
+
+                    <!-- partenaires -->
+
+                    <div class="partenaires">
+                        <a href="https://www.facebook.com/Joueur-du-Grenier-133349966719915/"><i
+                                class="fab fa-facebook-square" id="face"></i></a>
+                        <a href="https://www.youtube.com/user/joueurdugrenier"><i class="fab fa-youtube"
+                                id="you"></i></a>
+                        <a
+                            href="https://twitter.com/Frederic_Molas?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                                class="fab fa-twitter" id="twit"></i></a>
+                        <a href="https://www.instagram.com/molas.frederic/?hl=fr"><i class="fab fa-instagram"
+                                id="insta"></i></a>
+                    </div>
+
+
+
+                </div>
+                <div class="col-sm-4 d-none d-lg-block">
+                    <button type="button" class="btn btnOpen" id="btnLogin">Mon compte <a href="#"></a></button>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- modal Login-->
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Mon Compte</h4>
+                        <button class="closeBtn" id="closeBtn">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form" action="index.php" method="POST">
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="email" class="form-control" placeholder="e-mail">
+                            </div>
+                            <div class="input-group form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                </div>
+                                <input type="password" class="form-control" placeholder="mot de passe">
+                            </div>
+                            <div class="row align-items-center remember">
+                                <input type="checkbox">Se souvenir de moi
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Se connecter" class="btn float-right login_btn">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal fin -->
+
+
+
+            <!-- Navbar -->
+
+            <section class="navi">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="home.html">Accueil<span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Parc
+                                    </a>
+                                    <div class="dropdown-menu" id="dropdownMenu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="parc.html">Plan</a>
+                                        <a class="dropdown-item" href="attractions.html">Attractions</a>
+                                        <a class="dropdown-item" href="restaurants.html">Restaurants</a>
+                                        <a class="dropdown-item" href="hotels.html">Hôtels</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="billeterie.html">Billeterie</a>
+                                </li class="nav-item">
+                                <a class="nav-link" href="transports.html">Se rendre à Fistiland</a>
+                                <li>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item d-lg-none">
+                                    <a class="nav-link btnOpen" id="openMob" href="#">Mon compte</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+        </header>
+
+        <main>
+
+            <div>
+                <h3><strong>CONDITIONS GÉNÉRALES D’UTILISATION DES SERVICES EN LIGNE DELA PLATEFORME DE GESTION DE
+                        CENAREO</strong></h3>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <p><strong>1 –DÉFINITIONS</strong></p>
+                    <p>Chaque terme débutant ci-après par une majuscule a le sens qui lui est donné dans
+                        sa définition qui figure au présent article. « Conditions d’Utilisation » : désigne le présent
+                        document. « Conditions Particulières » : désigne les modalités et conditions d’utilisation
+                        particulières à certains Services pris individuellement. « Services » : désigne l’ensemble des
+                        services fournis par CenareoSAS aux Utilisateurs, accessible par le biais du portail
+                        www.cenareo.comoù un de ses sous-domaines du type www.client.cenareo.com,
+                        www.dashboard.Cenareo.fr entre autres, géré par CENAREOou encore l’un des sites affiliés et
+                        gérés par Cenareotel que dsaas.io. « Utilisateur » : désigne toute personne physique ou morale,
+                        particulier ou professionnel utilisant un ou plusieurs des Services</p>
+                    <p><strong>2 –OBJET</strong></p>
+                    <p>Le présent document
+                        constitue les Conditions d’Utilisation des Services. Ce document a pour objet de définir les
+                        modalités et conditions d’utilisation des Services par l’Utilisateur. Il est précisé que
+                        l’utilisation des Services, est subordonnée au respect des présentes Conditions d’Utilisation
+                        tel que prévu à l’article suivant. Elles constituent donc un contrat entre Cenareoet
+                        l’Utilisateur.</p>
+                    <p><strong>3 -ACCEPTATION ET MODIFICATION</strong></p>
+                    <p>Cenareo fournit ses Services sous réserve que vous
+                        vous engagiez à respecter les présentes Conditions d’Utilisation. En tout état de cause vous
+                        êtes réputé les avoir acceptées du simple fait de l’utilisation des Services. Toute utilisation
+                        des Services emporte acceptation des Conditions d’Utilisation dans leur dernière version.
+                        L’Utilisateur qui ne souhaite pas accepter tout ou partie des Conditions d’Utilisation renonce à
+                        tout usage des Services.Les Conditions d’Utilisation peuvent être modifiées à tout moment par
+                        Cenareo. Dans ce cas, les Conditions d’Utilisation modifiées entrent en vigueur à compter de
+                        leur mise en ligne. Nous recommandons à l’Utilisateur de consulter régulièrement la version en
+                        ligne des Conditions d’Utilisation. L’Utilisateur est réputé accepter cette dernière version à
+                        chaque nouvelle connexion aux Services.En cas de contradiction entre les Conditions
+                        d’Utilisation et des Conditions Particulières, les Conditions Particulières priment.</p>
+                    <p><strong>4-INSCRIPTION AUX SERVICES</strong></p>
+                    <p>L’accès aux services proposés par Cenareoest restreint aux entreprises
+                        et particuliers sous contrat avec Cenareo. Toute nouvelle demande d’accès est soumise à la
+                        validation expresse de Cenareo. L’Utilisateur s’engage à fournir des informations exactes,
+                        complètes et d’actualité. Dans le cas où les informations fournies sont inexactes, incomplètes
+                        ou obsolètes, Cenareoprendra toute mesure qu’elle jugera utile pour suspendre votre accès au
+                        service concerné, définitivement ou provisoirement.</p>
+                    <p><strong>5 -DONNÉES PERSONNELLES</strong></p>
+                    <p>Cenareos’engage à ce
+                        que les données à caractère personnel concernant les utilisateurs qui sont collectées dans le
+                        cadre de certains Services, ne soient traitées que pour les finalités de ces Services, à
+                        savoir:(i)Gérer l’accès des utilisateurs à certains services accessibles sur la Plateforme et
+                        leur utilisation,(ii)Effectuer les opérations relatives à la gestion des clients concernant les
+                        contrats, commandes, livraisons, factures, programmes de fidélité, suivis de la relation avec
+                        les clients,(iii)Constituer un fichier de membres inscrits, d’utilisateurs, de clients et
+                        prospects,(iv)Adresser des newsletters, sollicitations et messages promotionnels. Dans le cas où
+                        vous ne le souhaiteriez pas, nous vous donnons la faculté d’exprimer votre refus à ce sujet lors
+                        de la collecte de vos données ;(v)Élaborer des statistiques commerciales et de fréquentation de
+                        nos services,(vi)Organiser des jeux concours, loteries et toutes opérations promotionnelles à
+                        l’exclusion des jeux d’argent et de hasard en ligne soumis à l’agrément de l’Autorité de
+                        Régulation des Jeux en ligne,(vii)Gérer la gestion des avis des personnes sur des produits,
+                        services ou contenus,(viii)Gérer les impayés et les contentieux éventuels quant à l’utilisation
+                        de nos produits et services,(ix)Respecter nos obligations légales et réglementaires.En
+                        application des dispositions de la loi Informatique et Libertés du 6 janvier 1978,
+                        Cenareos’engage à n’utiliser les données à caractère personnel de l’Utilisateur que pour les
+                        strictes finalités précisées ci-avant. L’Utilisateur dispose également d’un droit d’accès, de
+                        rectification et de suppression des données personnelles le concernant, qui peut être exercé en
+                        envoyant un mail à l’adresse suivante : legal@cenareo.com. La charte RGPD suivie par Cenareo est
+                        disponible ici.Destinataires des données collectées et traitéesSeul le personnel de Cenareo, les
+                        services chargés du contrôle (commissaire aux comptes notamment) et nos sous-traitants auront
+                        accès aux données à caractère personnel des utilisateurs.Peuvent également être destinataires
+                        des données à caractère personnel les organismes publics, exclusivement pour répondre à nos
+                        obligations légales, les auxiliaires de justice, les officiers ministériels et les organismes
+                        chargés d’effectuer le recouvrement de créances.Durée de conservation des données à caractère
+                        personnel(i)Concernant les données relatives à la gestion de clients et prospects:Vos données à
+                        caractère personnel ne seront pas conservées au-delà de la durée strictement nécessaire à la
+                        gestion de notre relation commerciale avec vous. Toutefois, les données permettant d’établir la
+                        preuve d’un droit ou d’un contrat, devant être conservées au titre du respect d’une obligation
+                        légale, le seront pendantla durée prévue par la loi en vigueur.Concernant d’éventuelles
+                        opérations de prospection à destination des clients, leurs données pourront être conservées
+                        pendant un délai de trois (3) ans à compter de la fin de la relation commerciale. Les données à
+                        caractère personnel relatives à un prospect, non client, pourront être conservées pendant un
+                        délai de trois (3) ans à compter de leur collecte ou du dernier contact émanant du prospect.Au
+                        terme de ce délai de trois (3) ans, nous pourrons reprendre contact avec vous pour savoir si
+                        vous souhaitez continuer à recevoir des sollicitations commerciales.(ii)Concernant les pièces
+                        d’identité:En cas d’exercice du droit d’accès ou de rectification, les données relatives aux
+                        pièces d’identité pourront être conservées pendant le délai prévu à l’article 9 du code de
+                        procédure pénale, soit un an. En cas d’exercice du droit d’opposition, ces données peuvent être
+                        archivées pendant le délai de prescription prévu par l’article 8 du code de procédure pénale,
+                        soit trois (3) ans.(iii)Concernant la gestion des listes d’opposition à recevoir de la
+                        prospection:Les informations permettant de prendre en compte votre droit d’opposition sont
+                        conservées au minimum trois (3) ans à compter de l’exercice du droit d’opposition.(iv)Concernant
+                        les statistiques de mesure d’audience:Les informations stockées dans le terminal des
+                        utilisateurs ou tout autre élément utilisé pour identifier les utilisateurs et permettant leur
+                        traçabilité ou fréquentation ne seront pas conservées au-delà de six (6) mois. SécuritéNous vous
+                        informons prendre toutes précautions utiles, mesures organisationnelles et techniques
+                        appropriées pour préserver la sécurité, l’intégrité et la confidentialité de vos données à
+                        caractère personnel et notamment, empêcher qu’elles soient déformées, endommagées ou que des
+                        tiers non autorisés y aient accès. Nous recourrons également à des systèmes de paiement sécurisé
+                        conformes à l’état de l’art et à la réglementation applicable.</p>
+                    <p><strong>6 –COOKIES</strong></p>
+                    <p>Les cookies sont des
+                        fichiers textes, souvent cryptés, stockés dans votre navigateur. Ils sont créés lorsque le
+                        navigateur d’un utilisateur charge un site internet donné: le site envoie des informations au
+                        navigateur, qui créé alors un fichier texte. Chaque fois que l’utilisateur revient sur le même
+                        site, le navigateur récupère ce fichier et l’envoie au serveur du site internet.On peut
+                        distinguer deux types de cookies, qui n’ont pas les mêmes finalités: les cookies techniques et
+                        les cookies publicitaires:Les cookies techniques sont utilisés tout au long de votre
+                        navigation, afin de la faciliter et d’exécuter certaines fonctions. Un cookie technique peut par
+                        exemple être utilisé pour mémoriser les réponses renseignées dans un formulaire ou encore les
+                        préférences de l’utilisateur s’agissant de la langue ou de la présentation d’un site internet,
+                        lorsque de telles options sont disponibles.Les cookies publicitaires peuvent être créés non
+                        seulement par le site internet sur lequel l’utilisateur navigue, mais également par d’autres
+                        sites internet diffusantdes publicités, annonces, widgets ou autres éléments sur la page
+                        affichée. Ces cookies peuvent notamment être utilisés pour effectuer de la publicité ciblée,
+                        c’est-à-dire de la publicité déterminée en fonction de la navigation de l’utilisateur.Nous
+                        utilisons des cookies techniques. Ceux-ci sont stockés dans votre navigateur pour une période de
+                        treize (13) mois. Nous n’utilisons pas de cookies publicitaires. Toutefois, si nous devions en
+                        utiliser à l’avenir, nous vous en informerions au préalable et vous auriez la possibilité le cas
+                        échéant de désactiver ces cookies.Nous utilisons Google Analytics qui est un outil statistique
+                        d’analyse d’audience qui génère un cookie permettant de mesurer le nombre de visites sur le
+                        Site, le nombre de pages vues et l’activité des visiteurs. Votre adresse IP est également
+                        collectée pour déterminer la ville depuis laquelle vous vous connectez. La durée de conservation
+                        de ce cookie est mentionnée à l’article 7 (v) de la présente charte.Nous vous rappelons à toutes
+                        fins utiles qu’il vous est possible de vous opposer au dépôt de cookies en configurant votre
+                        navigateur. Un tel refus pourrait toutefois empêcher le bon fonctionnement du
+                        Site.ConsentementLorsque vous choisissez de communiquer vos données à caractère personnel, vous
+                        donnez expressément votre consentement pour la collecte et le traitement de celles-ci
+                        conformément à ce qui est énoncé aux présentes conditions générales d’utilisation et à la
+                        législation en vigueur.</p>
+                    <p><strong>7 -MOT DE PASSE</strong></p>
+                    <p>Pour accéder à nos Services vous devrez utiliser un
+                        identifiant et un mot de passe. Votre mot de passe est personnel et confidentiel. Vous vous
+                        engagez à ne pas le divulguer à un tiers sous quelque forme que ce soit et à quelque titre que
+                        ce soit et à informer immédiatement Cenareode toute utilisation par un tiers non autorisé et de
+                        toute atteinte à la sécurité qui pourrait en résulter. Vous êtes seul responsable de la
+                        conservation confidentielle de votre mot de passe et de toute utilisation qui pourrait en être
+                        faite.</p>
+                    <p><strong>8 -COÛT D’ACCÈS AUX SERVICES</strong></p>
+                    <p>Les Services sont accessibles gratuitement par le réseau
+                        Internet. Les frais de connexion aux Services sont à la charge de l’Utilisateur qui est seul
+                        responsable de son équipement informatique ainsi que de son accès à Internet</p>
+                    <p><strong>9 -UTILISATION DES SERVICES</strong></p>
+                    <p>Vous vous engagez à utiliser les Services conformément aux réglementations nationales et
+                        internationales, et en particulier à ne pas les utiliser pour afficher, télécharger, envoyer,
+                        transmettre tout contenu : -À caractère violent ou susceptible de porter atteinte au respect et
+                        à la dignité de la personne humaine, à l’égalité entre les hommes et les femmes, à la protection
+                        des enfants et des adolescents, notamment par la fabrication, le transport et la diffusion de
+                        messages à caractère violent ou pornographique ou de nature à porter atteinte à la dignité
+                        humaine ; -Qui encourage à la commission de crimes et délits ; -Qui incite à la consommation de
+                        substances interdites ; -Qui provoque ou puisse provoquer la discrimination,la haine, la
+                        violence en raison de la race, de l’ethnie, de la religion ou de la nationalité ; -Qui soit
+                        illégal, nuisible, menaçant, abusif, constitutif de harcèlement, diffamatoire, injurieux,
+                        vulgaire, obscène, menaçant pour la vie privée d’autrui oude nature à heurter la sensibilité de
+                        certaines personnes ; -Qui induise en erreur d’autres Utilisateurs en usurpant le nom ou la
+                        dénomination sociale d’autres personnes -Qui porte atteinte aux droits de tiers comme, sans que
+                        cette liste ne soit limitative, à tout secret de fabrication, secret professionnel, information
+                        confidentielle, marque, brevet et d’une manière générale tout droit de propriété industrielle
+                        ouintellectuelle ou tout autre droit portant sur une information ou un contenu protégé ;
+                        -Comprenant, sans que cette liste ne soit limitative, des virus informatiques ou tout autre code
+                        ou programme, conçus pour interrompre, détruire ou limiter la fonctionnalité de tout logiciel,
+                        ordinateur ou outil de télécommunication.Vous vous engagez à :-Prendre régulièrement
+                        connaissance des Conditions d’Utilisation et les respecter ; -Ne pas collecter et stocker des
+                        données personnelles afférentes aux autres Utilisateurs ; -Ne pas harceler de quelque manière
+                        que ce soit, un ou plusieurs autres Utilisateurs -Ne pas entraver ni perturber le fonctionnement
+                        des Services. Cenareose dégage de toute responsabilité vis-à-vis du contenu diffusé par
+                        l’intermédiaire des services qu’il fournit</p>
+                    <p><strong>10 -RESTRICTIONS D’ACCÈS</strong></p>
+                    <p>En cas de manquements de
+                        votre part aux présentes Conditions d’Utilisation, l’accès aux Services sera automatiquement
+                        bloqué, sans délai, ni préavis.Cenareoen informe l’Utilisateur par courrier électronique ou lors
+                        de sa prochaine connexion à son compte.</p>
+                    <p><strong>11 –LIENS HYPERTEXTES</strong></p>
+                    <p>Les Services peuvent contenir des
+                        liens vers des sites de partenaires de Cenareoou de tiers. Cenareon’exerce aucun contrôle sur
+                        ces sites et n’assume par conséquent, aucune responsabilité quant à la disponibilité de ces
+                        sites, leur contenu, publicités, produits ou services disponibles sur ou à partir de ces
+                        sites.</p>
+                    <p><strong>12 -DROITS DE PROPRIÉTÉ INTELLECTUELLE</strong></p>
+                    <p>Les contenus, notamment les textes, logiciels,
+                        documents sonores, photographies et dessins qui apparaissent ou sont disponibles sur les
+                        Services, sontprotégés par le droit de la propriété intellectuelle et sont la propriété
+                        exclusive de Cenareoet/ou, le cas échéant, de ses partenaires (ci-après, les «Créations»). A ce
+                        titre, vous vous engagez sans que cette liste ne soit limitative, à ne pas utiliser, reproduire,
+                        représenter, diffuser, adapter ou emprunter des contenus des Services protégés par le droit de
+                        la propriété intellectuelle, sans autorisation expresse de Cenareoet/ou de ses partenaires.12.1.
+                        Signes DistinctifsDésigne ensemble les marques, dénominations sociales, enseignes, noms
+                        commerciaux, noms de domaines ou URL, logos, photographies, images et/ou les autres signes
+                        distinctifs utilisés sur le Site ou pour désigner les Services. Sauf autorisation expresse,
+                        préalable et par écrit, CENAREOne concède à l’Utilisateur et aux tiers aucune licence ou droit
+                        quelconque sur les Signes Distinctifs qui sont la propriété exclusive de CENAREOou des tiers qui
+                        lui ont concédé le droit de les utiliser.Toute utilisation contraire du site ou des Services
+                        constituerait une contrefaçon susceptible d’entraîner des poursuites civiles et/ou
+                        pénales.12.2Code de la Propriété Intellectuelle (CPI)Art. L.335-2 CPI: «Toute édition d'écrits,
+                        de composition musicale, de dessin, de peinture ou de toute autre production, imprimée ou gravée
+                        en entier ou en partie, au mépris des lois etrèglements relatifs à la propriété des auteurs, est
+                        une contrefaçon et toute contrefaçon est un délit. La contrefaçon en France d'ouvrages publiés
+                        en France ou à l'étranger est punie de trois ans d'emprisonnement et de 300 000 euros
+                        d'amende.Seront punis des mêmes peines le débit, l'exportation, l'importation, le
+                        transbordement ou la détention aux fins précitées des ouvrages contrefaisants.»Art. L.335-3 CPI:
+                        «Est un délit de contrefaçon toute reproduction, représentation ou diffusion, par quelque moyen
+                        que ce soit, d'une œuvre de l'esprit en violation des droits de l'auteur...»,«Est un délit de
+                        contrefaçon la violation de l'un des droits de l'auteur de logiciel...»Art. L.343-4 CPI: «Est
+                        puni de trois ans d'emprisonnement et de 300 000 euros d'amende le fait de porter atteinte aux
+                        droits du producteur d'une base de données tels que définis à l'article L. 342-1.».</p>
+                    <p><strong>13–GARANTIE</strong></p>
+                    <p>Vous vous engagez à garantir Cenareocontre toute action qui serait engagée à son
+                        encontre, ou toute plainte qui serait déposée contre elle, par un tiers, du fait de
+                        l’utilisation par vous-même, ou sous le contrôle de votre identifiant et de votre mot de passe,
+                        des Services dans des conditions qui ne seraient pas conformes aux Conditions d’Utilisation.
+                        Cette garantie couvre toute somme que Cenareoserait tenue de verser à quelque titre que ce soit,
+                        y compris les honoraires d’avocat et frais de justice engagés. L’utilisation des Services
+                        n’estassortie d’aucune garantie quelle qu’elle soit. Cenareon’accorde aucune garantie expresse
+                        ou implicite, quant à l’utilisation des Services par l’Utilisateur et notamment sur la
+                        disponibilité, le caractère opportun, actuel, fiable et utile des Services etde leurs
+                        contenus.</p>
+                    <p><strong>14 -LIMITATION DE RESPONSABILITÉ</strong></p>
+                    <p>Vous êtes responsable de l’utilisation de votre
+                        identifiant et de votre mot de passe. Toutes connexions aux Services et transmissions de données
+                        effectuées en utilisant votre identifiant et votre mot de passe seront réputées avoir été
+                        effectuées par vous-même. Ces dispositions demeurent applicables y compris dans le cas où vous
+                        préenregistrez votre identifiant et votre mot de passe sur votre micro-ordinateur, permettant
+                        ainsi une connexion automatique aux Services. L’Utilisateur déclare accepter les
+                        caractéristiques et les limites d’Internet et en particulier reconnaît avoir connaissance de la
+                        nature du réseau Internet et en particulier de ses performances techniques. La responsabilité de
+                        Cenareone saurait être engagée à quelque titre que ce soit, et sans que cette liste ne soit
+                        limitative, en cas de modification, suspension ou interruption des Services.Cenareomet en œuvre
+                        tous les moyens raisonnables à sa disposition pour assurer un accès de qualité au Service, mais
+                        n’est tenu à aucune obligation d’y parvenir.Cenareone peut en aucun cas être tenue pour
+                        responsable de la fiabilité de la transmission des données, des temps d’accès, des éventuelles
+                        restrictions d’accès sur le réseau Internet ou les réseaux qui lui sont connectés. La
+                        responsabilité de Cenareone peut être engagée en cas d’interruption des réseaux d’accès aux
+                        Services, d’indisponibilité totale ou partielle des Services résultant notamment de l’opérateur
+                        de télécommunications, en cas d’erreur de transmission ou de problèmes liés à la sécurité des
+                        transmissions, en cas de défaillance du matériel de réception ou de votre ligne téléphonique.
+                        Cenareopeut être amenée à interrompre ses Services pour des raisons de maintenance. Cette
+                        interruption sera notifiée au moyen d’un avertissement figurant sur la page d’accueil ou par
+                        tout autre procédé. Cette interruption ne peut en aucun cas engager la responsabilité de
+                        Cenareoet n’ouvre droit à aucune indemnité. En aucun cas la responsabilité de Cenareone pourra
+                        être engagée pour les dommages indirects et notamment tout préjudice commercial, moral et
+                        financier en ce compris toute perte de bénéfices ayant pour cause, origine, ou fondement,
+                        l’utilisation des Services ou leurs contenus. Vous êtes seul responsable de tous contenus
+                        (notamment textes, images ou sons) que vous communiquerez à tout tiers par l’intermédiaire de
+                        l’un des Services, qu’il soit transmis dans un cadre public ou privé. Par conséquent, Cenareone
+                        saurait être tenue pour responsable des contenus communiqués par les Utilisateurs par
+                        l’intermédiaire des Services.</p>
+                    <p><strong>14 -FORCE MAJEURE</strong></p>
+                    <p>La responsabilité de Cenareoou de l’Utilisateur ne
+                        pourra être engagée en cas de force majeure ou de faits indépendants de sa volonté.</p>
+                    <p><strong>15 -PERMANENCE DES CLAUSES</strong></p>
+                    <p>Le fait que l’une des parties n’ait pas exigé l’application d’une clause
+                        quelconque des présentes Conditions d’Utilisation ne pourra en aucun cas être considéré comme
+                        une renonciation aux droits découlant de ladite clause.</p>
+                    <p><strong>16 -NON VALIDITÉ PARTIELLE</strong></p>
+                    <p>Si une ou
+                        plusieurs stipulations des Conditions d’Utilisation sont tenues pour non valides ou déclarées
+                        telles en application d'une loi, d'un règlement ou à la suite d'une décision définitive d'une
+                        juridiction, les autres stipulations des Conditions d’Utilisation garderont toute leur force
+                        juridique et leur portée.</p>
+                    <p><strong>17 -LOI APPLICABLE -ATTRIBUTION DE COMPÉTENCE</strong></p>
+                    <p>Les Conditions
+                        d’Utilisation et votre relation avec Cenareoen vertu de ces Conditions sont régies par la loi
+                        française. En cas de litige résultant de l’application des Conditions d’Utilisation, n’ayant pu
+                        faire l’objet d’un accord à l’amiable, la compétence est attribuée au tribunal de commerce de
+                        Toulouse. </p>
+                    <p><strong>18 -MENTIONS LÉGALES</strong></p>
+                    <p>Fistiland, SAS au capital de 0,42 € SIÈGE: Colon, Panama SITE WEB :
+                        www.web15academy.fistiland.com T Directeur de la publication: Bellja-kwet
+                        Hébergeurdu site : OVH, SAS au capital de 42.42$, RCS Mandailles
+                        . SIRET 433 115 904 00057. Siège social: 8 rue de la blague pas drôle, Rombière
+                        . Fark Azure: data center «Fark center», 342407 Montevideo une
+                        marque inventée sous le numéro national 42k42l42p</p>
+                    </p>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+
+      
+            <div class="row">
+                <div class="col-12">
+                    <div class="retour">
+                        <a href="#top"><i class="fas fa-chevron-circle-up"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <section class="navfooter">
+                <div class="row justify-content-center">
+                    <div class="col-sm-3">
+                        <h5>Information légales</h5>
+                        <ul>
+                            <li><a href="cgu.html">CGU</a></li>
+                            <li><a href="https://www.cnil.fr/fr/rgpd-par-ou-commencer">RGPD</a></li>
+                            <li><a href="reglementInterieur.html">Réglement interieur du Parc</a></li>
+                            <li><a href="reglementInterieur.html">Réglement interieur des hôtels</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <div id="footermid">
+                            <h5>Services</h5>
+                            <ul>
+                                <li><a href="centreDeSecours.html">Centre de secours</a></li>
+                                <li><a href="tarifs.html">Tarifs</a></li>
+                                <li><a href="https://www.youtube.com/channel/UC_yP2DpIgs5Y1uWC0T03Chw">Contacts</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>A propos</h5>
+                        <ul>
+                            <li><a href="https://www.facebook.com/Joueur-du-Grenier-133349966719915/">News letter</a></li>
+                            <li><a href="">Travailler à Fistiland</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=wtB6ZLAArV8">Information sur l'entreprise</a></li>
+                            <li><a href="partenaires.html">Nos partenaires</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <p class="text-center">&#9400; Copyrights Web15Academy All rights reserved 2019</p>
+        </footer>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- <script src="assets/js/home.js"></script> -->
+    <script src="assets/js/header.js"></script>
+</body>
+
+</html>
