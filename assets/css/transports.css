@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
 @font-face {
     font-family: SnackerComic;
     src: url("../fonts/snacker_comic/SnackerComic.ttf");
@@ -78,7 +79,26 @@ h1 {
     text-shadow: -2px 2px 15px rgb(87, 119, 134);
     padding-top: 50px;
 }
-
+h2{
+    color: whitesmoke;
+    font-family: SnackerComic;
+    font-size: 70px;
+    text-shadow: 4px 4px 30px rgb(0, 0, 0);
+}
+h3{
+    color: whitesmoke;
+    font-family: SnackerComic;
+    font-size: 70px;
+    text-shadow: 4px 4px 30px rgb(0, 0, 0);
+}
+h4{
+    font-family: 'Satisfy', cursive;  
+    font-weight: bold;
+    font-size: 2em;
+}
+ol, ul, dl{
+    font-size: 0.8em;
+}
 #btnLogin {
     color: rgb(255, 255, 255);
     border: solid 1px;
@@ -295,7 +315,6 @@ h5{
     padding-bottom: 50px;
     padding-right: 20px;
     padding-left: 20px; 
-    background-color: white;
     transform: skewY(-6deg);
     border: rgba(255, 140, 0, 0.8) solid 15px;
     margin-bottom: 100px;

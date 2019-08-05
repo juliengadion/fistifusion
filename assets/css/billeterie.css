@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Rock+Salt|Satisfy&display=swap');
+
 @font-face {
     font-family: SnackerComic;
     src: url("../fonts/snacker_comic/SnackerComic.ttf");
@@ -23,7 +25,34 @@ body {
     margin: 0;
     padding: 0;
 }
-
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#Fistpass > div:nth-child(1){
+    height: 500px; 
+}
+html body div#billeterie.container-fluid main div#contentBilleterie.container div#AnuPass.row.mt-5.mb-5 div.col-lg-12.col-md-12.col-sm-12 div.card.bg-dark.text-white.text-center{
+    height: 500px;
+}
+ img, .card-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.card{
+    border-radius: 20px;
+    height: 650px;
+}
+.card-text{
+    padding: 0 30px;
+}
+h4{
+    font-family: 'Satisfy', cursive;
+    font-size: 2em;
+    font-weight: bold;
+}
 /* HEADER */
 
 .navbar{
@@ -41,7 +70,7 @@ body {
     background-color: darkorange !important; 
     height: 3.5em;
   }
-
+  
 .navbar a {
     color: white !important;
     font-size: 25px;
@@ -220,28 +249,28 @@ h5{
 
 /*$$$$$$$$| Billeterie |$$$$$$$$*/
 /* Button */
-#md-fist, #md-anu {
+#md-fist{
     color: rgb(255, 255, 255);
-    border: solid 1px white;
+    border: solid 2px white;
     border-radius: 23.6px;
-    width: 250px;
-    height: 40px;
-    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    
     background-color: rgb(0, 123, 255);
-    bottom: 15px;
-    right: 450px;
+    box-shadow: 6px 10px 6px rgba(0, 0, 0, 0.356);
+    font-size: 1.2em;
 }
 
 #btnAnu {
     color: rgb(255, 255, 255);
-    border: solid 1px white;
+    border: solid 2px white;
     border-radius: 23.6px;
-    width: 250px;
-    height: 40px;
-    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    
     background-color: rgb(0, 123, 255);
-    bottom: 13em;
-    right: 450px;
+    box-shadow: 6px 10px 6px rgba(0, 0, 0, 0.356);
+    font-size: 1.2em;
 }
 
 #btnAnu:hover {
@@ -250,18 +279,41 @@ h5{
     color: rgb(0, 123, 255);
     background-color: white;
 }
-
+#contentBilleterie > div:nth-child(4) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2){
+    margin: 30px;
+}
 .btnCards {
+    position: initial;
     color: rgb(255, 255, 255);
-    border: solid 1px white;
+    border: solid 2px white;
     border-radius: 23.6px;
-    width: 250px;
-    height: 40px;
-    font-size: 15px;
+    box-shadow: 6px 10px 6px rgba(0, 0, 0, 0.356);
+    font-size: 1em;
     background-color: rgb(0, 123, 255);
-    bottom: 15px;
-    position: absolute;
-    right: 20%;
+    padding: 7px; 
+}
+.btnCards:hover{
+    border: solid 1px rgb(0, 123, 255);
+    border-radius: 23.6px;
+    color: rgb(0, 123, 255);
+    background-color: white;
+    text-decoration: none;
+}
+
+.card-header{
+width: 400px;
+height: 250px;
+margin-top: 30px;
+background-color: transparent;
+}
+
+
+div.row:nth-child(2) > div:nth-child(1) > div:nth-child(1){
+    height: 350px !important;
+}
+
+div.mt-5:nth-child(5) > div:nth-child(1) > div:nth-child(1){
+    height: 350px !important;
 }
 
 #reservGauche .card, #reservDroite .card, #forfaitGauche .card, #forfaitDroite .card{
@@ -272,19 +324,8 @@ h5{
     box-shadow: 6px 10px 6px rgba(0, 0, 0, 0.356);
 }
 
-#md-fist, #md-anu {
-    color: rgb(255, 255, 255);
-    border: solid 1px white;
-    border-radius: 23.6px;
-    width: 250px;
-    height: 40px;
-    font-size: 15px;
-    bottom: 180px;
-    background-color: rgb(0, 123, 255);
-    right: 450px;
-}
 
-.btnCards:hover, #md-fist:hover, #md-anu:hover {
+#md-fist:hover{
     border: solid 1px rgb(0, 123, 255);
     border-radius: 23.6px;
     color: rgb(0, 123, 255);
@@ -335,16 +376,7 @@ h5{
     height: 55px;
 }
 
-.blinker{
-    text-decoration: blink;
-    animation-name: blinker;
-    animation-duration: 1s;
-    animation-iteration-count:infinite;
-    animation-timing-function:ease-in-out;
-    animation-direction: alternate;
-    color: yellow;
-    font-weight: bold;
-}
+
 
 @keyframes blinker {
   from {opacity: 1.0;}
@@ -367,11 +399,74 @@ h5{
     .card-img-overlay h5{
         font-size: 20px;
     }
+    .prout{
+        font-size: 0.7em; 
+        text-decoration: blink ;
+        animation-name: blinker;
+        animation-duration: 1s;
+        animation-iteration-count:infinite;
+        animation-timing-function:ease-in-out;
+        animation-direction: alternate;
+        color: yellow;
+    }
+    h4{
+        margin-top: 70px;
+    }
+    
+    .btnCards{
+        font-size: 1em;
+    }
+    .card-header{
+        background-color: transparent;
+    }
+    img{
+        width: 550px;
+        height: 350px;
+        margin-left: 60px;
+    }
+    div.row:nth-child(2) > div:nth-child(1) > div:nth-child(1){
+        height: 200px !important;
+    }
+    div.row:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    div.row:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > p:nth-child(1){
+        font-size: 0.5em;
+    }
+    div.mt-5:nth-child(5) > div:nth-child(1) > div:nth-child(1){
+        height: 200px !important;
+    }
+    div.mt-5:nth-child(5) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    div.mt-5:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > p:nth-child(1){
+        font-size: 0.5em;
+    }
 }
 
 @media screen and (max-width: 767px){
     #contentBilleterie{
         max-width: 100%;
+    }
+    div.mt-5:nth-child(5) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+        height: 100px;
+        width: 311px;
+    }
+    div.mt-5:nth-child(5) > div:nth-child(1) > div:nth-child(1){
+        height: 100px !important;
+        width: 313px !important;
+    }
+    div.row:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+        height: 100px;
+        width: 311px;
+    }
+    div.row:nth-child(2) > div:nth-child(1) > div:nth-child(1){
+        height: 100px !important;
+        width: 313px !important;
     }
     #forfaitDroite .card-block, #forfaitGauche .card-block, #reservDroite .card-block, #reservGauche .card-block{
         width: 100%;
@@ -398,4 +493,80 @@ h5{
     .bg-text{
         display: none;
     }
+    .nav-link{
+        background-color: rgb(255, 140, 0);
+    }
+    a.btnCards:nth-child(1){
+        margin-left: 25px;
+    }
+    #Fistpass > div:nth-child(1){
+        height: 200px;
+    }
+    img{
+        width: 250px;
+        height: 150px;
+        margin: 50px 0 ;
+    }
+    #Fistpass > div:nth-child(1) > img:nth-child(1){
+        margin: 0;
+    }
+    #Fistpass > div:nth-child(1) > img:nth-child(1){
+        height: 200px !important;
+    }
+    #sm-fist{
+        padding: 30px 50px;
+        margin-bottom: 25px;
+    }
+    
+    div.row:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+        margin:0;
+    }
+    div.mt-5:nth-child(5) > div:nth-child(1) > div:nth-child(1) > img:nth-child(1){
+         margin:0;
+    }
+    a.btnCards:nth-child(1){
+        margin-left:0 !important;
+    }
+    div.row:nth-child(6) > div:nth-child(3) > div:nth-child(1){
+        width: 313px !important;
+        height: 648px !important;   
+    }
+    div.row:nth-child(6) > div:nth-child(1) > div:nth-child(1){
+        width: 313px !important;
+        height: 648px !important;   
+    }
+    #contentBilleterie > div:nth-child(1) > div:nth-child(5) > div:nth-child(3) > div:nth-child(1){
+        width: 313px !important;
+        height: 648px !important;  
+    }
+    #contentBilleterie > div:nth-child(1) > div:nth-child(5) > div:nth-child(1) > div:nth-child(1){
+        width: 313px !important;
+        height: 648px !important;  
+    }
+    #contentBilleterie > div:nth-child(1) > div:nth-child(4) > div:nth-child(3) > div:nth-child(1){
+        width: 313px !important;
+        height: 648px !important; 
+    }
+    #contentBilleterie > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > div:nth-child(1){
+        width: 313px !important;
+        height: 648px !important;
+    }
+.prout{
+   
+    font-size: 0.9em; 
+    text-decoration: blink ;
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+    color: yellow;
+}
+
+.btnCards{
+    font-size: 0.6em;
+}
+.card-header{
+    background-color: transparent;
+}
 }

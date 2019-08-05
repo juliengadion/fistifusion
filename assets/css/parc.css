@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
 
 @font-face {
     font-family: SnackerComic;
@@ -80,7 +81,7 @@ body {
     width: 200px;
     font-size: 15px;
     margin-top: 20px;
-}
+}h
 
 #btnLogin:hover {
     background-color: rgb(0, 123, 255);
@@ -132,6 +133,11 @@ h2 {
     font-size: 150px;
     text-shadow: -2px 2px 15px rgb(0, 0, 0);
     text-align: center;
+}
+h3{
+    font-family: 'Satisfy', cursive;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 header{
@@ -334,6 +340,9 @@ h5{
     .planTexte p {
         margin-left: 0;
     }
+    h3{
+        font-size: 2em;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px){
@@ -358,4 +367,5 @@ h5{
     .planTexte p {
         margin-left: 0;
     }
+    
 }
